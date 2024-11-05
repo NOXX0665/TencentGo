@@ -1,0 +1,25 @@
+/* Ajout de Tencent Sans comme font custom */
+@font-face {
+    font-family: 'Tencent Sans';
+    src: url('../fonts/TencentSans/tencentsans_w7-webfont.woff2') format('woff2'),
+         url('../fonts/TencentSans/tencentsans_w7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Tencent Sans';
+}
+
+p {
+    font-family: 'Tahoma';
+}
+
+article {
+    margin: 50px 80px;
+}
