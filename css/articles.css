@@ -1,0 +1,22 @@
+#description {
+    padding: 50px 80px;
+}
+
+#description div:nth-child(n+2) {
+    background-color: #0052d9;
+    /**
+    background-image: url('../img/offices.jpg');
+    background-size: cover;
+    **/
+    color:white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;    
+}
+
+#description div:nth-child(n+2) img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

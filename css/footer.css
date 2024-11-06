@@ -6,4 +6,5 @@ footer {
 .logo-footer {
     float: right;
     height: 50px;
+    vertical-align: middle;
 }
