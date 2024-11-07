@@ -1,10 +1,75 @@
 footer {
-    background-color: #0052d9;
-    padding: 80px;
+    background-color: #fbfbfb;
+    padding: 0px 80px;
+    font-family: Tahoma;
+    margin: auto 0;
+    position: relative;
 }
 
+.small-text {
+    font-size: 14px;
+    color: #5f6464;
+    margin-top: 20px;
+}
+
+
+/** Logo Tencent **/
+
 .logo-footer {
-    float: right;
-    height: 50px;
+    display: block;
+    position: absolute;
+    right: 75px;
+    bottom: 50%;
+
+    height: 28px;
+    width: 212px;
+}
+
+
+/** Footer links **/
+
+.titre-footer {
+    color: #5f6464;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+footer li {
+    list-style-type: none;
+    margin-bottom: 18px;
+} 
+
+footer li a {
+    font-size: 16px;
+    color:#5f6464;
+    text-decoration: none;
+}
+
+.footer-list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/** Follow Us section **/
+
+#socials {
+    padding-top: 33px;
+    border-bottom: 1px solid #f2f3f5;
+}
+
+#socials li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#socials .titre-footer {
+    margin: 10px 10px 10px 0px;
+}
+
+#socials li img {
     vertical-align: middle;
+    width: 22px;
+    height: 22px;
 }

@@ -22,24 +22,6 @@
     left: 80px;
 }
 
-.bouton {
-    background-color: #0052d9;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family: 'Tencent Sans';
-    margin: 5px;
-    display: inline-block;
-    transition: all 0.4s;
-}
-
-.bouton:hover {
-    background-color: #003bb5;
-    transform: scale(1.1);
-}
-
 .bouton-bg {
     background-color: white;
     border-radius: 10px;

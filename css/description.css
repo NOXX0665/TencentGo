@@ -1,0 +1,40 @@
+#description {
+    padding: 50px 80px;
+}
+
+/** Cartes de la description **/
+
+#description-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 0px auto;
+}
+
+.card {
+    background-color: #0052d9;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    vertical-align: top;
+    margin: auto 0px;  
+    position: relative;
+    padding-bottom: 50px; /* Adjust based on button height */
+    height: 100%; /* Ensure the cards have 100% height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card .bouton-secondaire {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; /* Position the button on the left */
+}
