@@ -2,39 +2,71 @@
     padding: 50px 80px;
 }
 
+
+
 /** Cartes de la description **/
 
 #description-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 24px;
     justify-items: center;
     padding: 0px auto;
 }
 
 .card {
-    background-color: #0052d9;
-    color: white;
-    border-radius: 10px;
+    background-color: white;
     width: 100%;
-    max-width: 300px;
-    padding: 10px;
     vertical-align: top;
     margin: auto 0px;  
     position: relative;
-    padding-bottom: 50px; /* Adjust based on button height */
-    height: 100%; /* Ensure the cards have 100% height */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding-bottom: 50px;
+    height: 100%;
+    box-sizing: border-box;
+    transition: ease all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .card img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 1px solid white;
+    transition: ease all 0.3s;
 }
 
-.card .bouton-secondaire {
+.card img:hover {
+    scale: 1.025;
+}
+
+.card p, .card h1 {
+    padding: 0px 30px;
+}
+
+.card h1 {
+    font-size: 24px;
+}
+
+.card .bouton {
     position: absolute;
     bottom: 10px;
-    left: 10px; /* Position the button on the left */
+    left: 20px;
+}
+
+/** Primary card **/
+
+.card:first-child {
+    background-color: #0052d9;
+    color: white;
+    grid-column: 1 / 3;
+    width: 100%;
+}
+
+.card:first-child img {
+    height: 200px;
 }
