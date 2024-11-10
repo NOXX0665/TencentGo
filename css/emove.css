@@ -1,0 +1,42 @@
+main {
+    margin: 0 80px;
+}
+
+#vl-dispos {
+    border: 1px solid #ebebeb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.vehicule {
+    border: 1px solid #ebebeb;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out all 0.2s;
+    border-radius: 10px;
+}
+
+.vehicule:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vehicule h2 {
+    margin: 0px; 
+}
+
+.vehicule .bouton-secondaire {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.vehicule p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
