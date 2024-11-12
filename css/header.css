@@ -35,3 +35,20 @@ nav a {
 nav a:hover {
     color: #80b1ff;
 }
+
+/** Tencent ID card **/
+
+#tencent-id {
+    display: block;
+    position: absolute;
+    background-color: #2bd900;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.tencent-id-small:hover li {
+    display: block;
+}
