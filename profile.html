@@ -20,7 +20,7 @@
                 <ul>
                     <li><a href="./rideshare/rechercher.html">RideShare</a></li>
                     <li><a href="./emove/louer.html">eMove</a></li>
-                    <li><a href="./profile.html" id="tencent-id-small">TencentID LOGO HERE<img src="./img/tid.png"></a>
+                    <li><a href="./profile.html" id="tencent-id-small"><img src="./img/t-id-small.png"></a>
                     </li>
                 </ul>
             </nav>
@@ -29,19 +29,23 @@
         <!-- Main content -->
         <main>
 
-            <img src="./img/tencentid.png" alt="Tencent ID Logo" id="tencent-id-big">
+            <img src="./img/t-id-big.png" alt="Tencent ID Logo" id="tencent-id-big">
             <!-- Profile section -->
             <section id="profile">
                 <div>
-                    <img src=".img/pdp.png" alt="Votre photo de profile">
-                    <form id="photo-form">
-                        <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
-                        <input type="submit" value="Changer de photo">
-                    </form>
+                    <div>
+                        <img src="./img/tencenthq.jpg" alt="Votre photo de profile">
+                        <form id="photo-form">
+                            <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
+                            <input type="submit" value="Changer de photo">
+                        </form>
+                    </div>
+                    <div>
+                        <h1>Bonjour, Jean</h1>
+                        <p>VOTRE NOTE</p>
+                        <h1>★★★★☆ 4/5</h1>
+                    </div>
                 </div>
-                <h1>Bonjour, Jean Y.</h1>
-                <p>VOTRE NOTE</p>
-                <h1>★★★★☆ 4/5</h1>
 
                 <form>
                     <fieldset>
@@ -49,23 +53,23 @@
                         <fieldset>
                             <legend>Informations personnelles</legend>
                             <label for="nom">Nom</label>
-                            <input type="text" id="nom" name="nom" value="Jean">
+                            <p><input type="text" id="nom" name="nom" value="Jean"></p>
                             <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom" name="prenom" value="Y.">
+                            <p><input type="text" id="prenom" name="prenom" value="Yvres"></p>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="L'email doit se terminer par @tencent.net.cn">
+                            <p><input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="L'email doit se terminer par @tencent.net.cn"></p>
                         </fieldset>
                         <fieldset>
                             <legend>Préférences de communication</legend>
                             <label for="email">Email</label>
-                            <input type="checkbox" id="email" name="email" checked>
+                            <p><input type="checkbox" id="email" name="email" checked></p>
                             <label for="sms">SMS</label>
-                            <input type="checkbox" id="sms" name="sms">
+                            <p><input type="checkbox" id="sms" name="sms"></p>
                             <label for="tel">Téléphone</label>
-                            <input type="checkbox" id="tel" name="tel">
+                            <p><input type="checkbox" id="tel" name="tel"></p>
                             
                         </fieldset>
-                        <input type="submit" value="Enregistrer les modifications">
+                        <input type="submit" value="Enregistrer les modifications" class="bouton-secondaire">
                     </fieldset>
                 </form>
 
