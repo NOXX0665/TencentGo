@@ -29,7 +29,9 @@ p, div {
     font-family: 'Tahoma';
 }
 
-
+main {
+    min-height: 100vh;
+}
 
 /** Boutons **/
     
