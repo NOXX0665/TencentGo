@@ -21,16 +21,34 @@ body {
     background-color: #fbfbfb;
 }
 
-h1, h2, h3{
+h1, h2, h3, legend {
     font-family: 'Tencent Sans W7';
 }
 
-p, div {
+p, div, a, input, label {
     font-family: 'Tahoma';
 }
 
 main {
     min-height: 100vh;
+}
+
+
+/** Classe danger **/
+
+.danger {
+    display: inline-block;
+    background-color: #ffcc00;
+    border: 1px solid #cea500;
+    border-radius: 10px;
+    padding: 10px;
+    color: #5d4a00;
+}
+
+.danger > img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /** Boutons **/
