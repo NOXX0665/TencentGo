@@ -26,7 +26,7 @@ h1, h2, h3, legend {
 }
 
 p, div, a, input, label {
-    font-family: 'Tahoma';
+    font-family: 'Tahoma', Arial, sans-serif;
 }
 
 main {

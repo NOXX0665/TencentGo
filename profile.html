@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/description.css">
+        <link rel="stylesheet" href="css/profile.css">
         <link rel="icon" href="./img/favicon.ico">
     </head>
     <body>
@@ -31,15 +32,19 @@
 
             <img src="./img/t-id-big.png" alt="Tencent ID Logo" id="tencent-id-big">
             <!-- Profile section -->
+
             <section id="profile">
                 <div>
-                    <div>
-                        <img src="./img/tencenthq.jpg" alt="Votre photo de profile">
+                    <!-- Photo de profile -->
+                    <div id="photo-de-profile">
+                        <img src="./img/photoProfile.png" alt="Votre photo de profile">
                         <form id="photo-form">
                             <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
-                            <input type="submit" value="Changer de photo">
+                            <input type="submit" value="💾">
                         </form>
                     </div>
+
+                    <!-- Nom et note -->
                     <div>
                         <h1>Bonjour, Jean</h1>
                         <p>VOTRE NOTE</p>
@@ -47,26 +52,28 @@
                     </div>
                 </div>
 
+
+                <!-- Paramètres -->
                 <form>
                     <fieldset>
-                        <legend>Paramètres</legend>
+                        <legend>Parametres</legend>
                         <fieldset>
                             <legend>Informations personnelles</legend>
                             <label for="nom">Nom</label>
-                            <p><input type="text" id="nom" name="nom" value="Jean"></p>
+                            <input type="text" id="nom" name="nom" value="Jean">
                             <label for="prenom">Prénom</label>
-                            <p><input type="text" id="prenom" name="prenom" value="Yvres"></p>
+                            <input type="text" id="prenom" name="prenom" value="Yvres">
                             <label for="email">Email</label>
-                            <p><input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="L'email doit se terminer par @tencent.net.cn"></p>
+                            <input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="L'email doit se terminer par @tencent.net.cn">
                         </fieldset>
                         <fieldset>
-                            <legend>Préférences de communication</legend>
+                            <legend>Preferences de communication</legend>
                             <label for="email">Email</label>
-                            <p><input type="checkbox" id="email" name="email" checked></p>
+                            <input type="checkbox" id="email" name="email" checked>
                             <label for="sms">SMS</label>
-                            <p><input type="checkbox" id="sms" name="sms"></p>
+                            <input type="checkbox" id="sms" name="sms">
                             <label for="tel">Téléphone</label>
-                            <p><input type="checkbox" id="tel" name="tel"></p>
+                            <input type="checkbox" id="tel" name="tel">
                             
                         </fieldset>
                         <input type="submit" value="Enregistrer les modifications" class="bouton-secondaire">

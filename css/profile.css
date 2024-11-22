@@ -1,0 +1,70 @@
+main {
+    margin: 0 80px;
+}
+
+#profile > div { /** Wrapper de la photo et nom **/
+    display: flex;
+}
+
+#profile > div > div:first-child {
+    display: inline-block;
+    border: 1px aquamarine solid
+}
+
+#profile > div >div:nth-child(2) { /** Div avec nom et note **/
+    height: 100%;
+    border: 3px orange solid;
+}
+
+#profile {
+    font-family: Tahoma;
+    border: 2px solid red;
+}
+
+#tencent-id-big {
+    width: 10%;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#profile form {
+    max-width: 20%;
+}
+
+#profile input {
+    display: block;
+}
+
+
+/** Section avec la photo de profile **/
+
+#photo-de-profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px red solid;
+    object-fit: cover;
+}
+
+#photo-form {
+    display: flex;
+}
+
+#photo-de-profile input {
+    justify-content: start;
+    border: 1px red dashed;
+}
+
+input[type="file"]::file-selector-button {
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    border: #b8b8b8 1px solid;
+    background-color: #f0f0f0;
+}
+
+input[type="file"] {
+    max-width: 80px;
+    margin-right: 10px;
+}
