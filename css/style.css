@@ -21,8 +21,12 @@ body {
     background-color: #fbfbfb;
 }
 
-h1, h2, h3, legend {
+h1, h2, legend {
     font-family: 'Tencent Sans W7';
+}
+
+h3 {
+    font-family: 'Tencent Sans W3';
 }
 
 p, div, a, input, label {
