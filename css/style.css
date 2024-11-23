@@ -34,7 +34,7 @@ main {
 }
 
 
-/** Classe danger **/
+/** Classe danger, utilisée quand on veut signaler à l'utilisateur une information importante ou un erreur. **/
 
 .danger {
     display: inline-block;

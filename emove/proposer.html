@@ -78,6 +78,19 @@
                         <input type="file" id="photo" name="photo" required>
                     </fieldset>
 
+                    <fieldset>
+                        <legend for="infos-personnelles">Informations Personnelles</legend>
+                        <p class="danger"><img src="../img/danger.svg">Modifiez vos informations personnelles via <a href="../profile.html">Tencent ID</a></p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="Modifiez votre email sur votre page Tencent ID" disabled>
+
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" value="Yvres" title="Modifiez votre nom sur votre page Tencent ID" disabled>
+
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" value="Jean" title="Modifiez votre prénom sur votre page Tencent ID" disabled>
+                    </fieldset>
+
                     <input type="submit" value="Proposer" class="bouton">
                 </fieldset>
             </form>
