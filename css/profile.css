@@ -13,28 +13,11 @@ main {
     font-family: Tahoma;
 }
 
+/** Section avec la photo de profile **/
+
 #profile > div > div:first-child { /** Div avec photo de profile **/
     display: inline-block;
 }
-
-#profile > form {
-    max-width: 50%;
-}
-
-#profile > form input {
-    display: block;
-}
-
-fieldset {
-    border: 1px solid #b8b8b8;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-
-
-/** Section avec la photo de profile **/
 
 #photo-de-profile img {
     height: 150px;
@@ -58,7 +41,7 @@ input[type="file"]::file-selector-button {
 }
 
 input[type="file"] {
-    max-width: 80px;
+    max-width: 100px;
     margin-right: 10px;
 }
 
@@ -93,3 +76,20 @@ input[type="file"] {
 
 
 /** Section des paramètres **/
+
+#profile > form {
+    width: fit-content;
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+#profile > form input {
+    display: block;
+}
+
+fieldset {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
