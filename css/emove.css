@@ -58,6 +58,11 @@ main {
     display: inline-block;
 }
 
+main > a {
+    display: inline-block;
+    margin: 15px;
+}
+
 #iframe {
     display: none;
     width: 50%;

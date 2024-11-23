@@ -2,13 +2,15 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <title>Tencent Go</title>
+        <title>Go eMove - Proposer son véhicule</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/hero.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/description.css">
         <link rel="stylesheet" href="../css/emove.css">
+        <link rel="stylesheet" href="../css/formulaire.css">
+        <link rel="stylesheet" href="../css/proposer-questionnaire.css">
         <link rel="icon" href="../img/favicon.ico">
     </head>
     <body>
@@ -27,6 +29,8 @@
             </nav>
         </header>
 
+
+
         <!-- Main -->
         <main>
             <h1 id="titre-page">Go eMove</h1>  
@@ -39,13 +43,13 @@
                     <fieldset>
                         <legend>Informations sur le vehicule</legend>
 
-                        <label for="marque">Type de véhicule</label>
+                        <label for="type-vl">Type de véhicule</label>
                         <input type="radio" id="voiture" name="vehicule">
-                        <label for="voiture">Voiture électrique</label>
+                        <label class="radio-label" for="voiture">Voiture électrique</label><br>
                         <input type="radio" id="velo" name="vehicule">
-                        <label for="velo">Vélo électrique</label>
+                        <label class="radio-label" for="velo">Vélo électrique</label><br>
                         <input type="radio" id="trotinette" name="vehicule">
-                        <label for="trotinette">Trotinette électrique</label>
+                        <label class="radio-label" for="trotinette">Trotinette électrique</label><br>
                         
                         <label for="marqueEtModele">Marque et Modèle</label>
                         <input type="text" id="marqueEtModele" name="marqueEtModele" required>
@@ -64,7 +68,7 @@
                         <input type="date" id="dateDebut" name="dateDebut" required>
                         <input type="date" id="dateFin" name="dateFin" required>
 
-                        <label for="prix">Prix de la location (€/jour)</label>
+                        <label for="prix">Prix de la location (€/jour)</label> <!-- A vérifier si les locations sont payantes avec la proffesseur -->
                         <input type="number" id="prix" name="prix" required>
 
                         <label for="lieu">Lieu de la location</label>
@@ -73,9 +77,13 @@
                         <label for="photo">Photo du véhicule</label>
                         <input type="file" id="photo" name="photo" required>
                     </fieldset>
+
+                    <input type="submit" value="Proposer" class="bouton">
                 </fieldset>
             </form>
         </main>
+
+
 
 
         <!-- Footer -->
