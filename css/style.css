@@ -34,7 +34,7 @@ main {
 }
 
 
-/** Classe danger **/
+/** Classe danger, utilisée quand on veut signaler à l'utilisateur une information importante ou un erreur. **/
 
 .danger {
     display: inline-block;
@@ -70,7 +70,9 @@ main {
 
 .bouton:hover {
     background-color: #003bb5;
+    border-radius: 10px;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -98,5 +100,7 @@ main {
 
 .bouton-secondaire:hover {
     background-color: #f2f2f2;
+    border-radius: 10px;
     transform: scale(1.1);
+    cursor: pointer;
 }
