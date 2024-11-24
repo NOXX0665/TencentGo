@@ -112,17 +112,27 @@ main {
 
 /** Icones **/
 
-.fleche {
+.icone {
+    height: 0.7em;
+    display: inline-block;
+}
+
+.icone.fleche {
     height: 0.7em;
     margin: 0 0.5em;
 }
 
-.fleche-petit {
+.icone.fleche-petit {
     height: 1em;
-
+    vertical-align: middle;
 }
 
-.success {
+.icone.gauche {
+    height: 0.9em;
+    margin-right: 0.5em;
+}
+
+.icone.success {
     width: 32px;
     height: 32px;
     object-fit: cover;
