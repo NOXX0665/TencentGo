@@ -108,3 +108,26 @@ main {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+/** Icones **/
+
+.fleche {
+    height: 0.7em;
+    margin: 0 0.5em;
+}
+
+.fleche-petit {
+    height: 1em;
+
+}
+
+.success {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    transform: translateY(-15%);
+}

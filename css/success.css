@@ -21,16 +21,6 @@ div > .bouton-secondaire {
     text-align: center;
 }
 
-div > img {
-    width: 32px;
-    height: 32px;
-    object-fit: cover;
-    border-radius: 15px;
-    vertical-align: middle;
-    margin-right: 10px;
-    transform: translateY(-15%);
-}
-
 main {
     min-height: 0px;
 }
