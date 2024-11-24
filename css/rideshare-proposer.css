@@ -5,6 +5,8 @@ fieldset {
     overflow: hidden;
     padding: 20px;
     position: relative;
+    min-height: 500px;
+    height: fit-content;
 }
 
 fieldset > div {
@@ -19,4 +21,10 @@ fieldset > img {
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
