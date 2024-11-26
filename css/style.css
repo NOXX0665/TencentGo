@@ -21,8 +21,12 @@ body {
     background-color: #fbfbfb;
 }
 
-h1, h2, h3, legend {
+h1, h2, legend {
     font-family: 'Tencent Sans W7';
+}
+
+h3 {
+    font-family: 'Tencent Sans W3';
 }
 
 p, div, a, input, label {
@@ -34,7 +38,7 @@ main {
 }
 
 
-/** Classe danger **/
+/** Classe danger, utilisée quand on veut signaler à l'utilisateur une information importante ou un erreur. **/
 
 .danger {
     display: inline-block;
@@ -70,7 +74,9 @@ main {
 
 .bouton:hover {
     background-color: #003bb5;
+    border-radius: 10px;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -98,5 +104,40 @@ main {
 
 .bouton-secondaire:hover {
     background-color: #f2f2f2;
+    border-radius: 10px;
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/** Icones **/
+
+.icone {
+    height: 0.7em;
+    display: inline-block;
+}
+
+.icone.fleche {
+    height: 0.7em;
+    margin: 0 0.5em;
+}
+
+.icone.fleche-petit {
+    height: 1em;
+    vertical-align: middle;
+}
+
+.icone.gauche {
+    height: 0.9em;
+    margin-right: 0.5em;
+}
+
+.icone.success {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    transform: translateY(-15%);
 }

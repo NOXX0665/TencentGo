@@ -7,7 +7,9 @@
         <link rel="stylesheet" href="../css/hero.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/description.css">
+        <link rel="stylesheet" href="../css/rideshare.css">
+        <link rel="stylesheet" href="../css/formulaire.css">
+        <link rel="stylesheet" href="../css/rideshare-proposer.css">
         <link rel="icon" href="../img/favicon.ico">
     </head>
     <body>
@@ -25,6 +27,40 @@
                 </ul>
             </nav>
         </header>
+
+
+        <!-- Main content -->
+        <main>
+            <h1 id="titre-page">Go RideShare</h1>
+            <a href="#formulaire" class="bouton">Proposer un trajet</a>
+            <a href="./rechercher.html" class="bouton-secondaire">Chercher un trajet</a>
+
+            <!-- Formulaire -->
+            <form action="./proposition-reussite.html">
+                <fieldset>
+                    <legend>Proposer un trajet</legend>
+                    <div>
+                        <label>Adresse de départ</label>
+                        <input type="text" name="adresse-depart" placeholder="Votre addresse" required>
+
+                        <label>Adresse d'arrivée</label>
+                        <input type="text" name="adresse-arrivee" value="Shenzhen, Tencent Binhai Building, No. 33, Haitian Second Road" title="L'addresse d'arrivée ne peut pas être modifié" disabled>
+
+                        <label>Horaire de départ</label>
+                        <input type="datetime-local" name="horaire" required>
+
+                        <label>Nombre de sièges</label>
+                        <input type="number" name="nb-sieges" title="Veuillez sélectionner le nombre de sièges" min="0" max="10">
+                        
+                        <input type="submit" value="Proposer le trajet" class="bouton">
+                    </div>
+                    <img src="../img/carte.png" alt="Une carte de votre trajet">
+                </fieldset>
+            </form>
+
+        </main>
+
+
 
         <!-- Footer -->
         <footer>

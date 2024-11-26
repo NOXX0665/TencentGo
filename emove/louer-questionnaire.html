@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/hero.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/formulaire.css">
         <link rel="stylesheet" href="../css/questionnaire-location.css">
         <link rel="icon" href="../img/favicon.ico">
     </head>
@@ -20,16 +21,16 @@
                     <fieldset>
                         <legend for="dates">Dates de locations</legend>
                         <a>Du</a>
-                        <input type="date" id="debut" name="debut">
+                        <input type="date" id="debut" name="debut" required>
                         <a>au</a>
-                        <input type="date" id="fin" name="fin">
+                        <input type="date" id="fin" name="fin" required>
                     </fieldset>
 
                     <fieldset>
                         <legend for="infos-personnelles">Informations Personnelles</legend>
-                        <p class="danger"><img src="../img/danger.svg">Modifiez vos informations personnelles via <a href="../profile.html">Tencent ID</a></p>
+                        <p class="icone danger"><img src="../img/icons/danger.svg">Modifiez vos informations personnelles via <a href="../profile.html">Tencent ID</a></p>
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" pattern="*+@tencent\.net\.cn" title="Modifiez votre email sur votre page Tencent ID" disabled>
+                        <input type="email" id="email" name="email" value="jean-yvres@tencent.net.cn" title="Modifiez votre email sur votre page Tencent ID" disabled>
 
                         <label for="nom">Nom</label>
                         <input type="text" id="nom" name="nom" value="Yvres" title="Modifiez votre nom sur votre page Tencent ID" disabled>
@@ -42,7 +43,7 @@
                         <legend>Documents Necessaires</legend>
                         <label>Permis de conduire</label>
                         <p id="small-text">Veuillez envoyer votre permis de conduire, valable pour au moins la durée de votre location.</p>
-                        <input type="file" id="permis" name="permis" accept="image/png, image/jpeg">
+                        <input type="file" id="permis" name="permis" accept="image/png, image/jpeg" required>
                         <input type="checkbox" id="enregistrer" name="enregistrer">
                         <label>Enregistrer votre permis pour de futures locations ?</label>
                         

@@ -1,0 +1,17 @@
+fieldset {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    display: block;
+}
+
+input[type="radio"] {
+    display: inline-block;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 10px;
+}
