@@ -46,11 +46,19 @@
                         <label>Adresse d'arrivée</label>
                         <input type="text" name="adresse-arrivee" value="Shenzhen, Tencent Binhai Building, No. 33, Haitian Second Road" title="L'addresse d'arrivée ne peut pas être modifié" disabled>
 
-                        <label>Horaire de départ</label>
+                        <label>Date/Horaire de départ</label>
                         <input type="datetime-local" name="horaire" required>
 
+                        <label>Répétition</label>
+                        <select name="repetition" class="select">
+                            <option value="no-repeat">Ne se répète pas</option>
+                            <option value="every-day">Tous les jours</option>
+                            <option value="every-week">Toutes les semaines</option>
+                            <option value="every-month">Tous les mois</option>
+                        </select>
+
                         <label>Nombre de sièges</label>
-                        <input type="number" name="nb-sieges" title="Veuillez sélectionner le nombre de sièges" min="0" max="10">
+                        <input type="number" name="nb-sieges" title="Veuillez sélectionner le nombre de sièges" min="0" max="10" value="5">
                         
                         <input type="submit" value="Proposer le trajet" class="bouton">
                     </div>
