@@ -19,11 +19,11 @@
                 <h1>Louer un vehicule</h1>
                 <fieldset>
                     <fieldset>
-                        <legend for="dates">Dates de locations</legend>
-                        <a>Du</a>
-                        <input type="date" id="debut" name="debut" required>
-                        <a>au</a>
-                        <input type="date" id="fin" name="fin" required>
+                        <legend for="dates">Dates/Horaires de locations</legend>
+                        <a style="display: inline-block;">Du </a>
+                        <input type="datetime-local" id="debut" name="debut" required style="display: inline-block;">
+                        <a style="display: inline-block;"> au </a>
+                        <input type="datetime-local" id="fin" name="fin" required style="display: inline-block;">
                     </fieldset>
 
                     <fieldset>
