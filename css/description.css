@@ -1,4 +1,4 @@
-#description {
+section {
     padding: 50px 80px;
 }
 
@@ -69,4 +69,22 @@
 
 .card:first-child img {
     height: 200px;
+}
+
+/** Section FAQ **/
+
+details {
+    margin-top: 30px;
+    font-family: 'Tencent Sans W7', sans-serif;
+    animation: all 1s ease;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+details > summary {
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: bold;
+    color: #0052d9;
+    cursor: pointer;
 }
