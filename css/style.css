@@ -129,6 +129,9 @@ main {
 
 
 /** Icones **/
+/** Toutes les icones sont les icones officielles de Tencent **/
+/** Elles sont directement sourcées de https://tdesign.tencent.com/design/icon-en **/
+
 
 .icone {
     height: 0.7em;
@@ -158,4 +161,11 @@ main {
     vertical-align: middle;
     margin-right: 10px;
     transform: translateY(-15%);
+}
+
+.photo-profile-petit { /** Utilisé pour afficher les photos de profil des utilisateurs en petit par exemple dans la page rideshare/rechercher.html ou emove/louer.html **/
+    height: 2em;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 0.5em;
 }

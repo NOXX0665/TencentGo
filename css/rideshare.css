@@ -48,10 +48,3 @@ main {
 main > .bouton, main > .bouton-secondaire {
     margin-left: 15px;
 }
-
-.photo-profile-petit {
-    height: 2em;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 0.5em;
-}

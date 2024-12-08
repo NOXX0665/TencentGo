@@ -18,7 +18,7 @@ main {
     position: relative;
     transition: ease-in-out all 0.2s;
     border-radius: 10px;
-    overflow: hidden; /* Ensure content doesn't overflow */
+    overflow: hidden;
 }
 
 .vehicule:hover {
@@ -36,7 +36,7 @@ main {
     right: 10px;
 }
 
-.vehicule img {
+.vehicule > img {
     float: left;
     height: 150px;
     margin-right: 20px;
@@ -45,13 +45,7 @@ main {
 .vehicule > div {
     display: inline-block;
     vertical-align: top;
-    max-width: calc(100% - 120px); /* Adjust based on image width and margin */
-}
-
-.vehicule p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+    max-width: calc(100% - 120px);
 }
 
 #titre-page {
@@ -62,6 +56,10 @@ main > a {
     display: inline-block;
     margin: 15px;
 }
+
+
+
+/** Section de la popup (avec l'iframe du questionnaire) **/
 
 #popup-location {
     display: none;
