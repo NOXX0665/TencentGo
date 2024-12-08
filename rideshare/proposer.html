@@ -46,7 +46,7 @@
                         <input type="text" name="adresse-arrivee" placeholder="L'adresse d'arrivée du trajet" title="Adresse d'arrivée du trajet" required>
 
                         <label>Date/Horaire de départ</label>
-                        <input type="datetime-local" name="horaire" title="Date et Horaire de départ du trajet" required>
+                        <input type="datetime-local" name="horaire" title="Date et Horaire de départ du trajet" required> <!-- datetime-local utilise le format (24h ou 12h) du système de l'utilisateur. Je n'ai pas trouvé de moyen de forcer à 24h -->
 
                         <label>Répétition</label>
                         <select name="repetition" class="select" title="Si votre trajet se répète" required>

@@ -21,9 +21,9 @@
                     <fieldset>
                         <legend for="dates">Dates/Horaires de locations</legend>
                         <a style="display: inline-block;">Du </a>
-                        <input type="datetime-local" id="debut" name="debut" title="Date de début de la location" required style="display: inline-block;">
+                        <input type="datetime-local" id="debut" name="debut" title="Date de début de la location" required style="display: inline-block;"> <!-- datetime-local utilise le format (24h ou 12h) du système de l'utilisateur. Je n'ai pas trouvé de moyen de forcer à 24h -->
                         <a style="display: inline-block;"> au </a>
-                        <input type="datetime-local" id="fin" name="fin" title="Date de fin de la location" required style="display: inline-block;">
+                        <input type="datetime-local" id="fin" name="fin" title="Date de fin de la location" required style="display: inline-block;"> <!-- datetime-local utilise le format (24h ou 12h) du système de l'utilisateur. Je n'ai pas trouvé de moyen de forcer à 24h -->
                     </fieldset>
 
                     <fieldset>
