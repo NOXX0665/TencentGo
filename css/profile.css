@@ -19,7 +19,7 @@ main {
     display: inline-block;
 }
 
-#photo-de-profile img {
+#photo-de-profile > img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -91,5 +91,14 @@ input[type="file"] {
 }
 
 #message-enregistre:target {
+    display: block;
+}
+
+#photo-confirmation {
+    display: none;
+    margin: 10px auto;
+}
+
+#photo-confirmation:target {
     display: block;
 }

@@ -38,10 +38,11 @@
                     <!-- Photo de profile -->
                     <div id="photo-de-profile">
                         <img src="./img/photoDeProfile.png" alt="Votre photo de profile">
-                        <form>
-                            <input type="file" id="photo" name="photo" accept="image/png, image/jpeg">
+                        <form action="profile.html#photo-confirmation" method="POST">
+                            <input type="file" id="photo" name="photo" accept="image/png, image/jpeg" required>
                             <input type="submit" value="💾">
                         </form>
+                        <p id="photo-confirmation" class="success green"><img src="img/icons/success.svg">Vos modifications ont été enregistrées</p>
                     </div>
 
                     <!-- Nom et note -->
