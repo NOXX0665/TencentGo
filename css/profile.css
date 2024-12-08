@@ -82,3 +82,14 @@ input[type="file"] {
     max-width: 50%;
     margin-top: 50px;
 }
+
+
+/** Message de confirmation **/
+
+#message-enregistre {
+    display: none;
+}
+
+#message-enregistre:target {
+    display: block;
+}
