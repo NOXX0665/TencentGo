@@ -3,7 +3,7 @@
 }
 
 #description div:nth-child(n+2) {
-    background-color: #0052d9;
+    background-color: var(--tencent-blue);
     /**
     background-image: url('../img/offices.jpg');
     background-size: cover;

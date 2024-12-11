@@ -1,6 +1,6 @@
 main > div {
     background-color: white;
-    border: 1px solid #0052d9;
+    border: 1px solid var(--tencent-blue);
     margin: 80px auto;
     max-width: 600px;
     border-radius: 15px;

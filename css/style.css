@@ -1,3 +1,7 @@
+:root {
+    --tencent-blue: #0052d9;
+}
+
 /* Ajout de Tencent Sans comme font custom */
 @font-face {
     font-family: 'Tencent Sans W7';
@@ -5,7 +9,6 @@
          url('../fonts/TencentSansW7/tencentsans_w7-webfont.woff') format('woff');
     font-weight: normal;
     font-style: sans-serif;
-
 }
 
 @font-face {
@@ -79,7 +82,7 @@ main {
     /** Bouton Principal **/
 
 .bouton {
-    background-color: #0052d9;
+    background-color: var(--tencent-blue);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -104,11 +107,11 @@ main {
 
 .bouton-secondaire {
     background-color: white;
-    color: #0052d9;
+    color: var(--tencent-blue);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    border:#003bb5 solid 1px;
+    border:var(--tencent-blue) solid 1px;
     font-family: 'Tencent Sans W3';
     font-weight: bold;
     margin: 5px;

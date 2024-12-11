@@ -32,7 +32,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #0052d9;
+    color: var(--tencent-blue);
     transition: all 0.4s;
 }
 
