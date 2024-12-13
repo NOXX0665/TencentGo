@@ -11,7 +11,7 @@ main {
     border-radius: 15px;
 }
 
-.vehicule {
+section > div {
     border: 1px solid #ebebeb;
     background-color: white;
     padding: 10px;
@@ -21,34 +21,34 @@ main {
     overflow: hidden;
 }
 
-.vehicule:hover {
+section > div:hover {
     transform: translateY(-4px);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-.vehicule h2 {
+section > div h2 {
     margin: 0px; 
 }
 
-.vehicule .bouton-secondaire {
+section > div .bouton-secondaire {
     position: absolute;
     bottom: 10px;
     right: 10px;
 }
 
-.vehicule > img {
+section > div > img {
     float: left;
     height: 150px;
     margin-right: 20px;
 }
 
-.vehicule > div {
+section > div > div {
     display: inline-block;
     vertical-align: top;
     max-width: calc(100% - 120px);
 }
 
-#titre-page {
+main > h1:first-of-type {
     display: inline-block;
 }
 

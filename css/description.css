@@ -20,8 +20,6 @@ section {
     vertical-align: top;
     margin: auto 0px;  
     position: relative;
-    padding-bottom: 50px;
-    height: 100%;
     box-sizing: border-box;
     transition: ease all 0.3s;
     overflow: hidden;
@@ -53,12 +51,11 @@ section {
 }
 
 .card .bouton {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
+    margin-left:30px;
+    margin-bottom: 30px;
 }
 
-/** Primary card **/
+/** Carte principale **/
 
 .card:first-child {
     background-color: var(--tencent-blue);
